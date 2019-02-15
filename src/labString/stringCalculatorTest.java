@@ -20,7 +20,7 @@ public class stringCalculatorTest {
 	/// TC 0
 	void StringCalculatorTest2() {
 		// arrange
-		String expected = "0";
+		String expected = "";
 		// actual
 		String actual = stringCalculator.add("0");
 		// assert

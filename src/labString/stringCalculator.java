@@ -3,13 +3,14 @@ package labString;
 public class stringCalculator {
 		
 		public static String add(String s) {
-			if (s == "") {
-				return "0";
-			}
 			if (s == "0") {
 				return "";
 			}
 
+			if (s == "") {
+				return "0";
+			}
+			
 			if (s.contains(",") && s.contains(".")) {
 
 				String[] values = s.split(",");
